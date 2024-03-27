@@ -4,22 +4,90 @@
     box-sizing: border-box;
     font-family: "Segoe UI", Arial, sans-serif;
     list-style: none;
+    font-weight: 400;
     text-decoration: none;
 }
 
+nav {
+    margin: 0 auto;
+    width: 100%;
+    position: sticky;
+    text-align: center;
+    border-bottom: 1px solid #d3d3d3;
+}
+
 ul {
-    
-    display: flex;
-    margin: 10px;
+    display: inline-flex;
+    list-style-type: none;
+    padding: 15px;
 }
 
 li {
     color: black;
     margin-right: 20px;
-    transition: 0.3ms;
+    margin-left: 10px;
+    transition: 0.25s;
 }
 
 li:hover {
-    transition: 0.3ms;
-    color: #e95555;
+    transition: 0.25s;
+    color: #f574bf;
+}
+
+.main {
+    padding-top: 50px;
+    padding-left: 130px;
+    padding-right: 130px;
+}
+
+img {
+    width: 250px;
+    height: 275px;
+}
+
+.name {
+    margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.name span {
+    font-weight: 700;
+}
+
+.home h4 a{
+    margin: 0;
+    padding: 0;
+    color: #f574bf;
+    transition: 0.25s;
+}
+.home h4 a:hover {
+    transition: 0.25s;
+    text-decoration: underline;
+}
+
+.home p {
+    font-weight: 350;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content .left {
+    margin-right: 30px;
+}
+
+.content .right h4 {
+    font-size: 16px;
+    letter-spacing: 1px;
+    margin-bottom: 5px;
+    font-family: monospace;
+}
+
+.content .right img {
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0.5px 2px 10px #c5c5c5;
 }
